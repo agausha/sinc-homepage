@@ -3,23 +3,27 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="py-16 px-4 md:px-8 lg:px-16 xl:px-14 2xl:px-64 bg-gray-100 text-sm mt-24">
+    <div className="py-16 px-4 md:px-8 lg:px-16 xl:px-14 2xl:px-64 bg-[#212121] text-white text-sm mt-24">
       {/* TOP */}
       <div className="flex flex-col md:flex-row justify-between gap-14">
         {/* LEFT */}
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-6">
           <Link href="/">
             <Image
-              src="/images/sinc-logo.png"
+              src="/images/sinc-footer-logo.png"
               alt="Sinc Logo"
               width={115}
               height={64}
               className="w-20 h-12"
             />
           </Link>
-          <p>4578 Park Way, West Plaza, Mallhook, MA 92045, Germany</p>
-          <span>estore@mail.com</span>
-          <span>+2459458213</span>
+          <p className="leading-7 w-[220px] h-[216px]">
+            SINC Partners is a service incubation company connecting experts in
+            product development and growth marketing willing to offer their
+            services to amazing startups in exchange for minute equity (usually
+            0.5% to 2%)
+          </p>
+
           {/* <div className="flex gap-4">
             <Image
               src="/icons/facebook.png"
