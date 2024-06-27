@@ -113,7 +113,8 @@ function Footer() {
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
         <div className="">
           {" "}
-          &copy; {new Date().getFullYear()} E-Shop. All Right Reserved.
+          &copy; {new Date().getFullYear()} 2023 SINC Partners Ltd. All rights
+          reserved
         </div>
         <div className="flex flex-col gap-8 md:flex-row">
           <div className="">
