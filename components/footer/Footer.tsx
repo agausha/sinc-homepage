@@ -93,6 +93,19 @@ function Footer() {
               <Link href="">Contact</Link>
             </div>
           </div>
+          <div className="flex flex-col justify-between">
+            <h1 className="font-semibold text-lg">More</h1>
+            <div className="flex flex-col gap-6">
+              <Link href="">Services</Link>
+              <Link href="">Equity Jobs</Link>
+              <Link href="">EIR Program</Link>
+              <Link href="">Offers</Link>
+              <Link href="">Innovation News</Link>
+              <Link href="">FAQ</Link>
+              <Link href="">Blog & Resources</Link>
+              <Link href="">Press</Link>
+            </div>
+          </div>
         </div>
 
         {/* RIGHT */}
