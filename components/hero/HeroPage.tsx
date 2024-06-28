@@ -65,7 +65,7 @@ function HeroPage() {
               </Link>
             </div>
             {/* IMAGE CONTAINER */}
-            <div className="hidden h-1/2 xl:w-1/2 xl:h-full relative">
+            <div className="sm:hidden h-1/2 xl:w-1/2 xl:h-full relative">
               <Image
                 src={slide.img}
                 alt=""
