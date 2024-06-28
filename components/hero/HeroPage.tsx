@@ -37,7 +37,7 @@ function HeroPage() {
   const [current, setCurrent] = useState(0);
 
   return (
-    <div className="h-[calc(100vh-80px)] sm:h-80 overflow-hidden">
+    <div className="h-[calc(100vh-80px)] sm:h-[24rem] overflow-hidden">
       <div
         className="w-max h-full flex transition-all ease-in-out duration-1000"
         style={{ transform: `translateX(-${current * 100}vw)` }}
@@ -74,7 +74,7 @@ function HeroPage() {
           </div>
         ))}
       </div>
-      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-16 flex gap-4 sm:top-[22rem]">
+      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-16 flex gap-4 sm:top-[24rem] lg:top-[26rem] xl:top-[27rem]">
         {slides.map((slide, index) => (
           <div
             className={`w-[6px] h-[6px] rounded-full bg-[#D9D9D9] ring-1 ring-gray-600 cursor-pointer flex items-center justify-center ${
