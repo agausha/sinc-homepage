@@ -9,8 +9,8 @@ function Networking() {
           Network of builders helping startup scale
         </h2>
         <div className="flex justify-center mt-14">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <div className="py-5 px-6 text-start rounded-lg bg-white w-[528px] h-[370px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="py-5 px-6 text-start rounded-lg bg-white w-full max-w-lg h-auto md:h-[370px]">
               <h3 className="text-2xl text-[#212121] mb-5 font-medium mt-4">
                 Work with Service Incubators to expedite your time-to-market
               </h3>
@@ -34,7 +34,7 @@ function Networking() {
                 </Link>
               </div>
             </div>
-            <div className="py-5 px-6 text-start rounded-lg bg-white w-[528px] h-[370px]">
+            <div className="py-5 px-6 text-start rounded-lg bg-white w-full max-w-lg h-auto md:h-[370px]">
               <h3 className="text-2xl text-[#212121] font-medium mb-5 mt-4">
                 Access funding after your mvp is validated
               </h3>
