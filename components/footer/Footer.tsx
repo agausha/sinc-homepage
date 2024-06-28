@@ -55,33 +55,42 @@ function Footer() {
         {/* CENTER */}
         <div className="hidden lg:flex justify-between w-1/2">
           <div className="flex flex-col justify-between">
-            <h1 className="font-semibold text-lg">Company</h1>
+            <h1 className="font-semibold text-lg">Platforms</h1>
             <div className="flex flex-col gap-6">
-              <Link href="">About Us</Link>
-              <Link href="">Careers</Link>
-              <Link href="">Affiliates</Link>
-              <Link href="">Blog</Link>
-              <Link href="">Contact Us</Link>
+              <Link href="">Kofoundme</Link>
+              <Link href="">InResidency</Link>
+              <Link href="">Service Market</Link>
+              <Link href="">Founders School</Link>
+              <Link href="">Metty</Link>
+              <Link href="">Grantty</Link>
+              <Link href="">Boldtell</Link>
+              <Link href="">Chekwa</Link>
             </div>
           </div>
           <div className="flex flex-col justify-between">
-            <h1 className="font-semibold text-lg">Shop</h1>
+            <h1 className="font-semibold text-lg">Initiatives</h1>
             <div className="flex flex-col gap-6">
-              <Link href="">New Arrivals</Link>
-              <Link href="">Accessories</Link>
-              <Link href="">Men</Link>
-              <Link href="">Women</Link>
-              <Link href="">All Products</Link>
+              <Link href="">Jabi Plains</Link>
+              <Link href="">Local Pricing Initiative</Link>
+              <Link href="">Scholarship Program</Link>
+              <Link href="">SSMN Pricing</Link>
+              <Link href="">University STEM</Link>
+              <Link href="">University InResidency</Link>
+              <Link href="">1M Nigeria Products</Link>
+              <Link href="">Founders Festival</Link>
             </div>
           </div>
           <div className="flex flex-col justify-between">
-            <h1 className="font-semibold text-lg">Help</h1>
+            <h1 className="font-semibold text-lg">About Us</h1>
             <div className="flex flex-col gap-6">
-              <Link href="">Customer Service</Link>
-              <Link href="">My Account</Link>
-              <Link href="">Find a Store</Link>
-              <Link href="">Legal & Privacy</Link>
-              <Link href="">Gift Card</Link>
+              <Link href="">Who We Are</Link>
+              <Link href="">Our People</Link>
+              <Link href="">Concept Innovations</Link>
+              <Link href="">Our Process</Link>
+              <Link href="">Investors Network</Link>
+              <Link href="">CSR & Events</Link>
+              <Link href="">Career</Link>
+              <Link href="">Contact</Link>
             </div>
           </div>
         </div>
