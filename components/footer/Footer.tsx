@@ -5,7 +5,26 @@ function Footer() {
   return (
     <div className="py-16 px-4 md:px-8 lg:px-16 xl:px-14 2xl:px-64 bg-[#212121] text-white text-sm mt-24">
       {/* TOP */}
-      <div className="flex flex-col md:flex-row justify-between gap-14">
+      <div className="w-full md:w-1/2 lg:w-[553px] h-[249px] flex flex-col gap-6">
+        <h1 className="font-medium text-6xl">Newsletter</h1>
+        <p className="font-normal text-base h-[84px]">
+          Get the latest about SINC Partners, our startup Incubator program,
+          Portfolio company offerings - straight into your inbox.
+        </p>
+        <div className="flex relative mb-6">
+          <input
+            type="text"
+            name="email"
+            placeholder="Enter your email address"
+            className="p-3 w-[460px] h-[50px] font-medium text-base text-[#BABABA] bg-transparent border border-[#676767] rounded-[25px]"
+          />
+          <button className="absolute top-0 left-80 w-[150px] h-[49px] font-bold text-base bg-white text-[#212121] rounded-3xl">
+            Subscribe
+          </button>
+        </div>
+      </div>
+      <span className="flex border-t border-[#E9E9E9] py-2 mt-4"></span>
+      <div className="flex flex-col md:flex-row justify-between gap-14 mt-8">
         {/* LEFT */}
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-6">
           <Link href="/">
@@ -53,10 +72,10 @@ function Footer() {
           </div> */}
         </div>
         {/* CENTER */}
-        <div className="hidden lg:flex justify-between w-1/2">
+        <div className="hidden lg:flex justify-between w-3/4">
           <div className="flex flex-col justify-between">
             <h1 className="font-semibold text-lg">Platforms</h1>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-5">
               <Link href="">Kofoundme</Link>
               <Link href="">InResidency</Link>
               <Link href="">Service Market</Link>
@@ -69,7 +88,7 @@ function Footer() {
           </div>
           <div className="flex flex-col justify-between">
             <h1 className="font-semibold text-lg">Initiatives</h1>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-5">
               <Link href="">Jabi Plains</Link>
               <Link href="">Local Pricing Initiative</Link>
               <Link href="">Scholarship Program</Link>
@@ -82,7 +101,7 @@ function Footer() {
           </div>
           <div className="flex flex-col justify-between">
             <h1 className="font-semibold text-lg">About Us</h1>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-5">
               <Link href="">Who We Are</Link>
               <Link href="">Our People</Link>
               <Link href="">Concept Innovations</Link>
