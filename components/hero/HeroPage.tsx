@@ -37,7 +37,7 @@ function HeroPage() {
   const [current, setCurrent] = useState(0);
 
   return (
-    <div className="h-[calc(100vh-80px)] overflow-hidden">
+    <div className="h-[calc(100vh-80px)] sm:h-80 overflow-hidden">
       <div
         className="w-max h-full flex transition-all ease-in-out duration-1000"
         style={{ transform: `translateX(-${current * 100}vw)` }}
@@ -48,24 +48,21 @@ function HeroPage() {
             key={slide.id}
           >
             {/* TEXT CONTAINER */}
-            <div className="h-[250px] xl:w-1/2 xl:h-full px-8  flex flex-col items-start justify-center gap-8 2xl:gap-12 text-center">
-              <h1 className="text-3xl text-left w-[491px] lg:text-4xl 2xl:text-5xl font-semibold">
+            <div className="h-[250px] xl:w-1/2 xl:h-full px-8  flex flex-col items-start justify-center gap-3 2xl:gap-12 text-center mx-auto">
+              <h1 className="text-3xl text-left w-[491px] sm:text-2xl lg:text-4xl 2xl:text-5xl sm:mt-8 font-semibold">
                 {slide.title}
               </h1>
-              <h2 className="text-xl text-left w-[500px] lg:text-2xl 2xl:text-4xl">
+              <p className="text-xl text-left w-[500px] sm:text-base lg:text-2xl 2xl:text-4xl">
                 {slide.description}
-              </h2>
+              </p>
               <Link href={slide.url}>
-                <button
-                  className="text-sm text-white py-2.5 px-5 font-600 leading-[19.2px] bg-[#303030] hover:bg-[#130f0f] rounded-3xl
-]"
-                >
+                <button className="rounded-3xl bg-[#303030] text-white py-3.5 px-8 mt-4 text-sm hover:bg-[#130F0F] transition-all ease-in-out">
                   SINC With Us
                 </button>
               </Link>
             </div>
             {/* IMAGE CONTAINER */}
-            <div className="sm:hidden h-1/2 xl:w-1/2 xl:h-full relative">
+            <div className="hidden xl:block h-1/2 xl:w-1/2 xl:h-full relative">
               <Image
                 src={slide.img}
                 alt=""
@@ -77,7 +74,7 @@ function HeroPage() {
           </div>
         ))}
       </div>
-      <div className="absolute m-auto left-1/2 bottom-8 flex gap-4">
+      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-16 flex gap-4 sm:top-[22rem]">
         {slides.map((slide, index) => (
           <div
             className={`w-[6px] h-[6px] rounded-full bg-[#D9D9D9] ring-1 ring-gray-600 cursor-pointer flex items-center justify-center ${

@@ -52,7 +52,7 @@ function EquityJobs() {
             <span className="text-sm text-[#212121]">Full-time</span>
           </div>
           <div className="flex items-center justify-start">
-            <button className="rounded-full bg-[#303030] text-white py-3.5 px-16 mt-3 text-sm hover:bg-[#242222] transition-all ease-in-out">
+            <button className="rounded-3xl bg-[#303030] text-white py-3.5 px-8 mt-3 text-sm hover:bg-[#130F0F] transition-all ease-in-out">
               View Details
             </button>
           </div>
@@ -96,7 +96,7 @@ function EquityJobs() {
             <span className="text-sm text-[#212121]">Full-time</span>
           </div>
           <div className="flex items-center justify-start">
-            <button className="rounded-full bg-[#303030] text-white py-3.5 px-16 mt-3 text-sm hover:bg-[#242222] transition-all ease-in-out">
+            <button className="rounded-3xl bg-[#303030] text-white py-3.5 px-8 mt-3 text-sm hover:bg-[#130F0F] transition-all ease-in-out">
               View Details
             </button>
           </div>
@@ -140,7 +140,7 @@ function EquityJobs() {
             <span className="text-sm text-[#212121]">Full-time</span>
           </div>
           <div className="flex items-center justify-start">
-            <button className="rounded-full bg-[#303030] text-white py-3.5 px-16 mt-3 text-sm hover:bg-[#242222] transition-all ease-in-out">
+            <button className="rounded-3xl bg-[#303030] text-white py-3.5 px-8 mt-3 text-sm hover:bg-[#130F0F] transition-all ease-in-out">
               View Details
             </button>
           </div>
@@ -184,7 +184,7 @@ function EquityJobs() {
             <span className="text-sm text-[#212121]">Full-time</span>
           </div>
           <div className="flex items-center justify-start">
-            <button className="rounded-full bg-[#303030] text-white py-3.5 px-16 mt-3 text-sm hover:bg-[#242222] transition-all ease-in-out">
+            <button className="rounded-3xl bg-[#303030] text-white py-3.5 px-8 mt-3 text-sm hover:bg-[#130F0F] transition-all ease-in-out">
               View Details
             </button>
           </div>

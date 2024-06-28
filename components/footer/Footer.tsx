@@ -36,7 +36,7 @@ function Footer() {
               className="w-20 h-12"
             />
           </Link>
-          <p className="leading-7 w-[220px] h-[216px]">
+          <p className="leading-7 w-[220px] h-[216px] sm:w-auto sm:h-auto">
             SINC Partners is a service incubation company connecting experts in
             product development and growth marketing willing to offer their
             services to amazing startups in exchange for minute equity (usually
@@ -72,7 +72,7 @@ function Footer() {
           </div> */}
         </div>
         {/* CENTER */}
-        <div className="hidden lg:flex justify-between w-3/4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:flex justify-between w-3/4">
           <div className="flex flex-col justify-between">
             <h1 className="font-semibold text-lg">Platforms</h1>
             <div className="flex flex-col gap-5">
@@ -129,7 +129,7 @@ function Footer() {
 
         {/* RIGHT */}
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-6">
-          <h1 className="font-semibold text-lg">Subscribe</h1>
+          {/* <h1 className="font-semibold text-lg">Subscribe</h1>
           <p>
             For trends, promotions and much more! join our newsLetter today.
           </p>
@@ -144,7 +144,7 @@ function Footer() {
               Join
             </button>
           </div>
-          <span className="font-semibold">Secure Payments</span>
+          <span className="font-semibold">Secure Payments</span> */}
           {/* <div className="flex justify-between">
             <Image src="/icons/discover.png" alt="" width={40} height={20} />
             <Image src="/icons/skrill.png" alt="" width={40} height={20} />
