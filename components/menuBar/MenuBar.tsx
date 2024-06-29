@@ -20,10 +20,10 @@ function MenuBar() {
           <Link href="">Platforms</Link>
           <Link href="">Initiatives</Link>
           <Link href="">More</Link>
-          <button className="text-[10px] text-white py-2 px-3 font-600 leading-[19.2px] bg-[#20888F] rounded-3xl">
+          <button className="text-[10px] text-white py-2 px-3 font-semibold leading-[19.2px] bg-[#20888F] rounded-3xl">
             SINC With Us
           </button>
-          <button className="text-[10px] text-white py-2 px-3 font-600 leading-[19.2px] bg-[#303030] rounded-3xl">
+          <button className="text-[10px] text-white py-2 px-3 font-semibold leading-[19.2px] bg-[#303030] rounded-3xl">
             Apply to SIP 1.0
           </button>
         </div>

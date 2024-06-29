@@ -45,13 +45,13 @@ function Header() {
         {/* RIGHT */}
         <div className="w-2/3 xl:w-1/2 flex items-center justify-end gap-[10px]">
           <button
-            className="text-sm text-white py-3 px-4 font-600 leading-[19.2px] bg-[#20888F]  hover:bg-[#20777d] rounded-3xl
+            className="text-sm text-white py-3 px-4 font-semibold leading-[19.2px] bg-[#20888F]  hover:bg-[#20777d] rounded-3xl
 ]"
           >
             SINC With Us
           </button>
           <button
-            className="text-sm text-white py-3 px-4 font-600 leading-[19.2px] bg-[#303030]  hover:bg-[#353535] rounded-3xl
+            className="text-sm text-white py-3 px-4 font-semibold leading-[19.2px] bg-[#303030]  hover:bg-[#353535] rounded-3xl
 ]"
           >
             Apply to SIP 1.0
