@@ -12,7 +12,7 @@ function MenuBar() {
         <AlignLeft className="w-6 h-6" />
       </span>
       {open && (
-        <div className="absolute bg-[#F9F9F9] left-0 top-20 sm:top-16 w-full h-[calc(100vh-80px)] sm:h-[30rem] flex flex-col items-center justify-center gap-4 text-base z-20">
+        <div className="absolute bg-[#F9F9F9] left-0 top-20 sm:top-16 w-full h-[calc(100vh-80px)] sm:h-[30rem] flex flex-col items-center justify-center gap-4 text-[18px] z-20">
           <Link href="">About</Link>
           <Link href="">SIP</Link>
           <Link href="">Studio</Link>
