@@ -12,8 +12,8 @@ function EquityJobs() {
           for very important position in their company
         </p>
       </div>
-      <div className="flex gap-x-4 gap-y-4 mt-14 justify-center flex-wrap">
-        <div className="flex flex-col bg-white w-[278px] h-[489px] rounded-2xl py-4 px-5 gap-4 sm:w-[45%] lg:w-[22%]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 py-8">
+        <div className="flex flex-col bg-white w-full h-full rounded-2xl py-4 px-5 gap-4">
           <Image
             src="/images/equity-logo01.png"
             alt="Equity Logo"
@@ -57,7 +57,7 @@ function EquityJobs() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col bg-white w-[278px] h-[489px] rounded-2xl py-4 px-5 gap-4 sm:w-[45%] lg:w-[22%]">
+        <div className="flex flex-col bg-white w-full h-full rounded-2xl py-4 px-5 gap-4">
           <Image
             src="/images/equity-logo02.png"
             alt="Equity Logo"
@@ -101,7 +101,7 @@ function EquityJobs() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col bg-white w-[278px] h-[489px] rounded-2xl py-4 px-5 gap-4 sm:w-[45%] lg:w-[22%]">
+        <div className="flex flex-col bg-white w-full h-full rounded-2xl py-4 px-5 gap-4">
           <Image
             src="/images/equity-logo03.png"
             alt="Equity Logo"
@@ -145,7 +145,7 @@ function EquityJobs() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col bg-white w-[278px] h-[489px] rounded-2xl py-4 px-5 gap-4 sm:w-[45%] lg:w-[22%]">
+        <div className="flex flex-col bg-white w-full h-full rounded-2xl py-4 px-5 gap-4">
           <Image
             src="/images/equity-logo04.png"
             alt="Equity Logo"
