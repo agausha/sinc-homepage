@@ -79,7 +79,7 @@ function Footer() {
           {/* CENTER */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-4 justify-between w-full md:w-3/4">
             <div className="flex flex-col justify-between">
-              <h1 className="font-semibold text-lg mb-4">Platforms</h1>
+              <h1 className="font-semibold text-lg">Platforms</h1>
               <div className="flex flex-col gap-5">
                 <Link href="">Kofoundme</Link>
                 <Link href="">InResidency</Link>
@@ -92,7 +92,7 @@ function Footer() {
               </div>
             </div>
             <div className="flex flex-col justify-between">
-              <h1 className="font-semibold text-lg">Initiatives</h1>
+              <h1 className="font-semibold text-lg mb-4">Initiatives</h1>
               <div className="flex flex-col gap-5">
                 <Link href="">Jabi Plains</Link>
                 <Link href="">Local Pricing Initiative</Link>
@@ -105,7 +105,7 @@ function Footer() {
               </div>
             </div>
             <div className="flex flex-col justify-between">
-              <h1 className="font-semibold text-lg">About Us</h1>
+              <h1 className="font-semibold text-lg mb-4">About Us</h1>
               <div className="flex flex-col gap-5">
                 <Link href="">Who We Are</Link>
                 <Link href="">Our People</Link>
@@ -118,7 +118,7 @@ function Footer() {
               </div>
             </div>
             <div className="flex flex-col justify-between">
-              <h1 className="font-semibold text-lg">More</h1>
+              <h1 className="font-semibold text-lg mb-4">More</h1>
               <div className="flex flex-col gap-5">
                 <Link href="">Services</Link>
                 <Link href="">Equity Jobs</Link>
@@ -136,7 +136,9 @@ function Footer() {
           <span className="flex border-l sm:border-t border-[#E9E9E9] py-2 sm:py-0 h-full"></span>
           <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col gap-6">
             <div className="flex flex-col justify-between">
-              <h1 className="font-semibold text-lg mb-4">Locations</h1>
+              <h1 className="font-semibold text-lg mb-4 sm:-mt-12 lg:mt-0 xl:mt-0 md:mt-0">
+                Locations
+              </h1>
               <div className="flex flex-col gap-5">
                 <Link href="">Jabi Plains</Link>
                 <Link href="">Lagos, Nigeria</Link>
