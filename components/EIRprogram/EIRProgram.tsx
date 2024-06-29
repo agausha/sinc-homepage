@@ -6,7 +6,7 @@ function EIRProgram() {
   return (
     <div className="bg-[#F9F9F9] py-12 px-6">
       <div className="text-center">
-        <h2 className="font-medium w-[911px] h-[134px] text-5xl text-[#212121]">
+        <h2 className="font-medium text-5xl text-[#212121]">
           Join Our Entrepreneur In Residence (EIR) Program
         </h2>
         <p className="font-normal text-base text-[#4E4E4E] max-w-[954px] mx-auto mt-6">
