@@ -2,7 +2,7 @@ import React from "react";
 
 function ConceptInnovation() {
   return (
-    <div className="bg-[#F9F9F9] py-12 px-6">
+    <div className="bg-[#F9F9F9] py-12 px-4">
       <div className="text-center">
         <h2 className="font-medium text-5xl text-[#212121]">
           Our Concept Innovations
@@ -14,7 +14,7 @@ function ConceptInnovation() {
         </p>
         <div className="flex justify-center mt-14">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            <div className="p-4 rounded-lg bg-white w-[352px] h-[212px]">
+            <div className="p-4 rounded-lg bg-white w-full md:w-[352px] h-[230px]">
               <h3 className="text-2xl text-[#212121] mb-5 font-medium text-center">
                 Service Incubator
               </h3>
@@ -24,7 +24,7 @@ function ConceptInnovation() {
                 and MVP
               </p>
             </div>
-            <div className="p-4 rounded-lg bg-white w-[352px] h-[212px]">
+            <div className="p-4 rounded-lg bg-white w-full md:w-[352px] h-[230px]">
               <h3 className="text-2xl text-[#212121] font-medium mb-5  text-center">
                 Virtualting
               </h3>
@@ -35,7 +35,7 @@ function ConceptInnovation() {
                 resource
               </p>
             </div>
-            <div className="p-4 rounded-lg bg-white w-[352px] h-[212px]">
+            <div className="p-4 rounded-lg bg-white w-full md:w-[352px] h-[230px]">
               <h3 className="text-2xl text-[#212121] font-medium mb-5 text-center">
                 Diiming
               </h3>
