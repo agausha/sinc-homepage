@@ -2,14 +2,16 @@ interface CardProps {
   number: any;
   content: string;
   bgColor: string;
+  className?: string;
 }
 
-function Card({ number, content, bgColor }: CardProps) {
+function Card({ number, content, bgColor, className }: CardProps) {
   return (
-    <div className="p-4 text-white text-start">
-      <div className="flex w-[240px] h-[160px]">
+    <div className={`text-white text-start ${className}`}>
+      <div className="flex w-full h-full">
         <div
           className={`shadow-sm p-8 flex flex-col items-start justify-between ${bgColor}`}
+          style={{ width: "100%", height: "100%" }}
         >
           <h3 className="text-xl font-normal leading-7">{number}</h3>
           <p className="text-base font-normal mt-4 leading-6">{content}</p>
