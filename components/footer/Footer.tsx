@@ -16,9 +16,9 @@ function Footer() {
             type="text"
             name="email"
             placeholder="Enter your email address"
-            className="p-3 w-[460px] h-[50px] font-medium text-base text-[#BABABA] bg-transparent border border-[#676767] rounded-[25px]"
+            className="p-3 w-full md:w-[460px] h-[50px] font-medium text-base text-[#BABABA] bg-transparent border border-[#676767] outline-none rounded-[25px]"
           />
-          <button className="absolute top-0 left-80 w-[150px] h-[49px] font-bold text-base bg-white text-[#212121] rounded-3xl">
+          <button className="absolute top-0 right-0 md:left-auto md:right-0 w-[150px] sm:w-[110px] h-[49px] font-bold text-base sm:text-sm bg-white text-[#212121] rounded-3xl">
             Subscribe
           </button>
         </div>
@@ -72,7 +72,7 @@ function Footer() {
           </div> */}
         </div>
         {/* CENTER */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:flex justify-between w-3/4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-4 justify-between w-full md:w-3/4">
           <div className="flex flex-col justify-between">
             <h1 className="font-semibold text-lg">Platforms</h1>
             <div className="flex flex-col gap-5">
