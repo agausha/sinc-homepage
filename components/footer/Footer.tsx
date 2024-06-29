@@ -22,9 +22,9 @@ function Footer() {
           <button
             type="submit"
             className="absolute inset-y-0 end-0 inline-flex items-center justify-center py-2.5 px-3 ms-2 text-base font-medium text-[#212121] bg-white
-           focus:outline-none rounded-3xl w-[150px] md:left-auto md:right-0 sm:w-[110px] h-[49px]"
+           focus:outline-none rounded-3xl w-[150px] lg:left-[340px] md:left-auto md:right-0 sm:w-[110px] h-[49px]"
           >
-            Search
+            Subscribe
           </button>
         </div>
       </div>
@@ -154,7 +154,7 @@ function Footer() {
                         className="w-8 h-8 object-contain"
                       />
                     </span>
-                    <p className="flex-grow py-2 px-1 text-[14px]">
+                    <p className="flex-grow py-2 px-1 text-xs">
                       ACCREDITED BUSINESS A+
                     </p>
                   </div>
@@ -164,11 +164,11 @@ function Footer() {
                       alt="Chat Logo"
                       width={85}
                       height={72}
-                      className="w-16 h-14"
+                      // className="w-16 h-14"
                     />
                   </Link>
                 </div>
-                <span className="-mt-8">Trusted Business</span>
+                <span className="-mt-11">Trusted Business</span>
               </div>
             </div>
           </div>
