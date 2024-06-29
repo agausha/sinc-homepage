@@ -4,11 +4,9 @@ import Link from "next/link";
 
 function EIRProgram() {
   return (
-    <div className="bg-[#F9F9F9] py-12 px-6">
+    <div className="bg-[#F9F9F9] py-12 px-6 overflow-x-scroll scrollbar-hide">
       <div className="text-center">
-        <h2 className="font-medium text-5xl text-[#212121]">
-          Join Our Entrepreneur In Residence (EIR) Program
-        </h2>
+        <h2 className="font-medium text-5xl text-[#212121]">How it Works</h2>
         <p className="font-normal text-base text-[#4E4E4E] max-w-[954px] mx-auto mt-6">
           Our EIR program is our structured 3 months un-paid program designed to
           help us have a pipeline of business and technical cofounders who can
