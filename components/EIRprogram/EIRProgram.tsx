@@ -13,7 +13,7 @@ function EIRProgram() {
           run the venture of choice as CEO & CTO owning 20% equity each.
         </p>
         <div className="flex justify-center mt-14">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-14">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="p-4 rounded-lg bg-white w-[380px] h-[392px]">
               <h3 className="text-xl text-[#212121] mb-5 font-medium text-start">
                 Application and Selection

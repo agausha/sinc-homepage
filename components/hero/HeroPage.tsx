@@ -9,7 +9,7 @@ const slides = [
     id: 1,
     title: "SINC Partners is a service incubation company",
     description:
-      "Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).",
+      "Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).",
     img: "/images/hero.png",
     url: "/",
     bg: "bg-white",
@@ -18,7 +18,7 @@ const slides = [
     id: 2,
     title: "SINC Partners is a service incubation company",
     description:
-      "Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).",
+      "Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).",
     img: "/images/hero.png",
     url: "/",
     bg: "bg-white",
@@ -27,12 +27,13 @@ const slides = [
     id: 3,
     title: "SINC Partners is a service incubation company",
     description:
-      "Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).",
+      "Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).",
     img: "/images/hero.png",
     url: "/",
     bg: "bg-white",
   },
 ];
+
 function HeroPage() {
   const [current, setCurrent] = useState(0);
 
@@ -44,15 +45,15 @@ function HeroPage() {
       >
         {slides.map((slide) => (
           <div
-            className={`${slide.bg} w-screen h-full flex flex-col gap-16 xl:flex-row`}
+            className={`${slide.bg} w-screen h-full flex flex-col gap-8 md:gap-12 xl:flex-row`}
             key={slide.id}
           >
             {/* TEXT CONTAINER */}
-            <div className="h-[250px] xl:w-1/2 xl:h-full px-8  flex flex-col items-start justify-center gap-3 2xl:gap-12 text-center mx-auto">
-              <h1 className="text-3xl text-left w-[491px] sm:text-2xl lg:text-4xl 2xl:text-5xl sm:mt-8 font-semibold">
+            <div className="px-8 flex flex-col items-center xl:items-start justify-center gap-3 md:gap-6 text-center xl:text-left mx-auto xl:w-1/2">
+              <h1 className="text-3xl mt-3 md:text-4xl xl:text-5xl font-semibold">
                 {slide.title}
               </h1>
-              <p className="text-xl text-left w-[500px] sm:text-base lg:text-2xl 2xl:text-4xl">
+              <p className="text-lg md:text-xl xl:text-2xl">
                 {slide.description}
               </p>
               <Link href={slide.url}>
@@ -62,7 +63,7 @@ function HeroPage() {
               </Link>
             </div>
             {/* IMAGE CONTAINER */}
-            <div className="hidden xl:block h-1/2 xl:w-1/2 xl:h-full relative">
+            <div className="hidden xl:block xl:w-1/2 relative">
               <Image
                 src={slide.img}
                 alt=""
