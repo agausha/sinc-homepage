@@ -133,7 +133,7 @@ function Footer() {
           </div>
 
           {/* RIGHT */}
-          <span className="flex border-l border-[#E9E9E9] py-2 h-full"></span>
+          <span className="flex border-l sm:border-t border-[#E9E9E9] py-2 sm:py-0 h-full"></span>
           <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col gap-6">
             <div className="flex flex-col justify-between">
               <h1 className="font-semibold text-lg mb-4">Locations</h1>
