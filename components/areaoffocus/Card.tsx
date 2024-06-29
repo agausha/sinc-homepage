@@ -2,12 +2,11 @@ interface CardProps {
   number: any;
   content: string;
   bgColor: string;
-  className?: string;
 }
 
-function Card({ number, content, bgColor, className }: CardProps) {
+function Card({ number, content, bgColor }: CardProps) {
   return (
-    <div className={`text-white text-start ${className}`}>
+    <div className="text-white text-start">
       <div className="flex w-full h-full">
         <div
           className={`shadow-sm p-8 flex flex-col items-start justify-between ${bgColor}`}
