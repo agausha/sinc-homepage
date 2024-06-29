@@ -14,7 +14,7 @@ function Portfolio() {
           Our 2024 Service Incubator Portfolio Companies
         </p>
         <div className="flex justify-center mt-14">
-          <div className="grid lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
+          <div className="grid lg:grid-cols-8 md:grid-cols-6 sm:grid-cols-4 grid-cols-1 gap-6">
             {portfolios.map((item, itemIndex) => {
               return (
                 <Image
