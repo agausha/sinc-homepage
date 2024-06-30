@@ -171,7 +171,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-7">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4 mt-4">
         <div className="font-medium sm:text-center text-base">
           {" "}
           &copy; {new Date().getFullYear()} SINC Partners Ltd. All rights
@@ -189,7 +189,7 @@ function Footer() {
               Security
             </Link>
           </div>
-          <div className="flex items-center justify-center gap-1">
+          <div className="sm:hidden lg:inline-flex flex items-center justify-center gap-1">
             <p className="font-semibold text-center text-base text-[#C9C9C9]">
               Web In Nigeria
             </p>
@@ -249,6 +249,19 @@ function Footer() {
                   height={21}
                 />
               </Link>
+            </div>
+            <div className="lg:hidden flex items-center justify-center gap-1">
+              <p className="font-semibold text-center text-base text-[#C9C9C9]">
+                Web In Nigeria
+              </p>
+              <span>
+                <Image
+                  src="/images/flag.png"
+                  alt="Flag"
+                  width={17}
+                  height={16}
+                />
+              </span>
             </div>
           </div>
         </div>
