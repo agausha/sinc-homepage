@@ -1,6 +1,6 @@
-import Card from "./Card";
+import AreaOfFocusCard from "./AreaOfFocusCard";
 
-function Cards() {
+function AreaOfFocusCards() {
   const areaOfFocus = [
     {
       number: "01",
@@ -33,7 +33,7 @@ function Cards() {
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-0 py-8">
       {areaOfFocus.map((item, index) => {
         return (
-          <Card
+          <AreaOfFocusCard
             key={index}
             number={item.number}
             content={item.content}
@@ -45,4 +45,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default AreaOfFocusCards;

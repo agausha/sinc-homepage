@@ -4,7 +4,7 @@ interface CardProps {
   bgColor: string;
 }
 
-function Card({ number, content, bgColor }: CardProps) {
+function AreaOfFocusCard({ number, content, bgColor }: CardProps) {
   return (
     <div className="text-white text-start">
       <div className="flex w-full h-full">
@@ -20,4 +20,4 @@ function Card({ number, content, bgColor }: CardProps) {
   );
 }
 
-export default Card;
+export default AreaOfFocusCard;

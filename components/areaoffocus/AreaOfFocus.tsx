@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "./Cards";
+import AreaOfFocusCards from "./AreaOfFocusCards";
 
 function AreaOfFocus() {
   return (
@@ -11,7 +11,7 @@ function AreaOfFocus() {
           initial strategic direction to focus on these five (5) key areas at
           the lab
         </p>
-        <Cards />
+        <AreaOfFocusCards />
       </div>
     </div>
   );
