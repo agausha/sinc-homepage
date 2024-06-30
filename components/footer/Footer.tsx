@@ -214,8 +214,8 @@ function Footer() {
                 <Image
                   src="/images/instagram.png"
                   alt="Instagram"
-                  width={21}
-                  height={21}
+                  width={18}
+                  height={18}
                 />
               </Link>
               <Link href="/">
