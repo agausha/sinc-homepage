@@ -47,39 +47,11 @@ function Footer() {
               services to amazing startups in exchange for minute equity
               (usually 0.5% to 2%)
             </p>
-
-            {/* <div className="flex gap-4">
-            <Image
-              src="/icons/facebook.png"
-              alt="Facebook"
-              width={16}
-              height={16}
-            />
-            <Image
-              src="/icons/instagram.png"
-              alt="Instagram"
-              width={16}
-              height={16}
-            />
-            <Image
-              src="/icons/youtube.png"
-              alt="Youtube"
-              width={16}
-              height={16}
-            />
-            <Image
-              src="/icons/linkedin.png"
-              alt="Linkedin"
-              width={16}
-              height={16}
-            />
-            <Image src="/icons/x.png" alt="X" width={16} height={16} />
-          </div> */}
           </div>
           {/* CENTER */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-4 justify-between w-full md:w-3/4">
-            <div className="flex flex-col justify-between">
-              <h1 className="font-semibold text-lg">Platforms</h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-3 w-full md:w-3/4">
+            <div className="flex flex-col">
+              <h1 className="font-semibold text-lg mb-4">Platforms</h1>
               <div className="flex flex-col gap-5">
                 <Link href="">Kofoundme</Link>
                 <Link href="">InResidency</Link>
@@ -91,7 +63,7 @@ function Footer() {
                 <Link href="">Chekwa</Link>
               </div>
             </div>
-            <div className="flex flex-col justify-between">
+            <div className="flex flex-col">
               <h1 className="font-semibold text-lg mb-4">Initiatives</h1>
               <div className="flex flex-col gap-5">
                 <Link href="">Jabi Plains</Link>
@@ -104,7 +76,7 @@ function Footer() {
                 <Link href="">Founders Festival</Link>
               </div>
             </div>
-            <div className="flex flex-col justify-between">
+            <div className="flex flex-col">
               <h1 className="font-semibold text-lg mb-4">About Us</h1>
               <div className="flex flex-col gap-5">
                 <Link href="">Who We Are</Link>
@@ -117,7 +89,7 @@ function Footer() {
                 <Link href="">Contact</Link>
               </div>
             </div>
-            <div className="flex flex-col justify-between">
+            <div className="flex flex-col">
               <h1 className="font-semibold text-lg mb-4">More</h1>
               <div className="flex flex-col gap-5">
                 <Link href="">Services</Link>
@@ -135,7 +107,7 @@ function Footer() {
           {/* RIGHT */}
           <span className="flex border-l sm:border-t border-[#E9E9E9] py-2 sm:py-0 h-full"></span>
           <div className="w-full md:w-1/2 lg:w-1/3 flex flex-col gap-6">
-            <div className="flex flex-col justify-between">
+            <div className="flex flex-col">
               <h1 className="font-semibold text-lg mb-4 sm:-mt-12 lg:mt-0 xl:mt-0 md:mt-0">
                 Locations
               </h1>
@@ -143,7 +115,7 @@ function Footer() {
                 <Link href="">Jabi Plains</Link>
                 <Link href="">Lagos, Nigeria</Link>
                 <Link href="">Philadelphia, USA</Link>
-                <div className="flex justify-between mt-7">
+                <div className="flex justify-between mt-16">
                   <div className="border border-gray-400 w-44 h-16 flex gap-2 items-center">
                     <span className="border-r border-gray-400 h-16 py-3 px-4">
                       <Image
@@ -164,7 +136,6 @@ function Footer() {
                       alt="Chat Logo"
                       width={85}
                       height={72}
-                      // className="w-16 h-14"
                     />
                   </Link>
                 </div>
@@ -175,21 +146,115 @@ function Footer() {
         </div>
       </div>
       {/* BOTTOM */}
-      <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
-        <div className="">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-7">
+        <div className="font-medium text-base sm:-mt-4">
+          <p className="font-light text-sm w-full sm:w-auto sm:text-center h-[38px]">
+            Guaranteed 2x on your service or cash investment, usually been the
+            first to invest.{" "}
+            <span className="font-semibold">
+              Get in early and SINC your guaranty!
+            </span>
+          </p>
+        </div>
+        <div className="flex gap-8 md:flex-col">
+          <div className="flex items-center justify-center gap-4">
+            <Image
+              src="/images/gasus.png"
+              alt="Gasus"
+              width={120}
+              height={38}
+            />
+            <p className="font-light text-xs ml-2 sm:text-center w-full sm:w-auto h-[38px]">
+              We are a business built on the foundation of Christian values and
+              belief
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-7">
+        <div className="font-medium sm:text-center text-base">
           {" "}
           &copy; {new Date().getFullYear()} SINC Partners Ltd. All rights
           reserved
         </div>
-        <div className="flex flex-col gap-8 md:flex-row">
-          {/* <div className="">
-            <span className="text-gray-500 mr-4">Language:</span>
-            <span className="font-medium">United States | English</span>
-          </div> */}
-          {/* <div className="">
-            <span className="text-gray-500 mr-4">Currency:</span>
-            <span className="font-medium">$ USD</span>
-          </div> */}
+        <div className="flex flex-col">
+          <div className="flex font-medium text-base">
+            <Link href="" className="mr-4">
+              Privacy Policy
+            </Link>
+            <Link href="" className="mr-4 font-medium">
+              Terms of Service
+            </Link>
+            <Link href="" className="font-medium">
+              Security
+            </Link>
+          </div>
+          <div className="flex items-center justify-center gap-1">
+            <p className="font-semibold text-center text-base text-[#C9C9C9]">
+              Web In Nigeria
+            </p>
+            <span>
+              <Image src="/images/flag.png" alt="Flag" width={17} height={16} />
+            </span>
+          </div>
+        </div>
+        <div className="flex gap-8 md:flex-row">
+          <div className="">
+            <div className="flex items-center justify-center gap-4">
+              <Link href="/">
+                <Image
+                  src="/images/facebook.png"
+                  alt="Facebook"
+                  width={22}
+                  height={21}
+                />
+              </Link>
+              <Link href="/">
+                {" "}
+                <Image
+                  src="/images/instagram.png"
+                  alt="Instagram"
+                  width={21}
+                  height={21}
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  src="/images/youtube.png"
+                  alt="Youtube"
+                  width={20}
+                  height={14}
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  src="/images/linkedin.png"
+                  alt="Linkedin"
+                  width={20}
+                  height={21}
+                />
+              </Link>
+              <Link href="/">
+                <Image src="/images/x.png" alt="X" width={21} height={21} />
+              </Link>
+              <Link href="/">
+                <Image
+                  src="/images/flickr.png"
+                  alt="Flickr"
+                  width={20}
+                  height={11}
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  src="/images/messenger.png"
+                  alt="Messenger"
+                  width={21}
+                  height={21}
+                />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
