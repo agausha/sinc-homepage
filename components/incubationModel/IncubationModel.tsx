@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import IncubationModelCards from "./IncubationModelCards";
 
 function IncubationModel() {
   return (
@@ -26,39 +27,7 @@ function IncubationModel() {
               Just a few reasons we know its time for this model
               within the ecosystem
             </p>
-          </div>
-          <div className="flex flex-wrap justify-center gap-6 mt-8">
-            <div className="p-4 rounded-lg bg-white w-full sm:w-[352px] h-[230px]">
-              <h3 className="text-2xl text-[#212121] mb-5 font-medium text-center">
-                Service Incubator
-              </h3>
-              <p className="text-[#4E4E4E] font-normal text-base text-center py-3">
-                Most early-stage companies and pre-product startups cannot
-                afford professional services especially those who don’t have
-                family and friends’ network that can support
-              </p>
-            </div>
-            <div className="p-4 rounded-lg bg-white w-full sm:w-[352px] h-[230px]">
-              <h3 className="text-2xl text-[#212121] font-medium mb-5  text-center">
-                Virtualting
-              </h3>
-              <p className="text-[#4E4E4E] font-normal text-base text-center py-3">
-                If startups can seed 5-10% in equity to incubators for $20k to
-                $200k funding most times, they will be willing to seed 10%
-                equity for a $25k service investment
-              </p>
-            </div>
-            <div className="p-4 rounded-lg bg-white w-full sm:w-[352px] h-[230px]">
-              <h3 className="text-2xl text-[#212121] font-medium mb-5 text-center">
-                Diiming
-              </h3>
-              <p className="text-[#4E4E4E] font-normal text-base text-center py-3">
-                Young professionals who don’t have a lot of money to invest nor
-                an accredited investors will have opportunities to take equity
-                at the early stage of their career, usually been the first to
-                invest and almost guaranteed of return
-              </p>
-            </div>
+            <IncubationModelCards />
           </div>
         </div>
         <div>
@@ -71,13 +40,13 @@ function IncubationModel() {
               (SEEQ) and what the value of your share equity can be over time
             </p>
             <div className="flex flex-wrap gap-4 items-center justify-center md:justify-start font-normal mt-8">
-              <span className="w-full sm:w-[226px] py-3 px-4 rounded-full bg-white text-sm text-center">
+              <span className="w-full sm:w-auto py-4 px-8 rounded-3xl bg-white text-sm text-center">
                 Service Incubator Equity
               </span>
-              <span className="w-full sm:w-[226px] py-3 px-4 rounded-full bg-white text-sm text-center">
+              <span className="w-full sm:w-auto py-4 px-8 rounded-3xl bg-white text-sm text-center">
                 SEEQ Maths Equation
               </span>
-              <span className="w-full sm:w-[236px] py-3 px-4 rounded-full bg-white text-sm text-center">
+              <span className="w-full sm:w-auto py-4 px-8 rounded-3xl bg-white text-sm text-center">
                 Value of my Equity Over Time
               </span>
             </div>

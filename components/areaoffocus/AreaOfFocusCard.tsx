@@ -1,10 +1,10 @@
-interface CardProps {
+interface AreaOfFocusCardProps {
   number: any;
   content: string;
   bgColor: string;
 }
 
-function AreaOfFocusCard({ number, content, bgColor }: CardProps) {
+function AreaOfFocusCard({ number, content, bgColor }: AreaOfFocusCardProps) {
   return (
     <div className="text-white text-start">
       <div className="flex w-full h-full">
