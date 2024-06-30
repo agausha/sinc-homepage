@@ -235,7 +235,12 @@ function Footer() {
                 />
               </Link>
               <Link href="/">
-                <Image src="/images/x.png" alt="X" width={21} height={21} />
+                <Image
+                  src="/images/twitter.png"
+                  alt="Twitter"
+                  width={21}
+                  height={21}
+                />
               </Link>
               <Link href="/">
                 <Image
