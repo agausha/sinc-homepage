@@ -213,7 +213,7 @@ function Footer() {
                 {" "}
                 <Image
                   src="/images/instagram.png"
-                  alt="Instagram"
+                  alt="instagram"
                   width={18}
                   height={18}
                 />
