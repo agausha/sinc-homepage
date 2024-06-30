@@ -6,7 +6,7 @@ import ConceptInnovation from "@/components/conceptInnovation/ConceptInnovation"
 import IncubationModel from "@/components/incubationModel/IncubationModel";
 import Portfolio from "@/components/portfolio/Portfolio";
 import CoFoundWithUs from "@/components/coFoundWithUs/CoFoundWithUs";
-import EIRProgram from "@/components/EIRprogram/EIRProgram";
+import HowItWorks from "@/components/howItWorks/HowItWorks";
 import InvestorsNetwork from "@/components/investorsNetwork/InvestorsNetwork";
 import EquityJobs from "@/components/equityJobs/EquityJobs";
 
@@ -21,7 +21,7 @@ export default function Home() {
       <IncubationModel />
       <Portfolio />
       <CoFoundWithUs />
-      <EIRProgram />
+      <HowItWorks />
       <InvestorsNetwork />
       <EquityJobs />
     </main>
