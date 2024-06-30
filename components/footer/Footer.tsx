@@ -207,16 +207,6 @@ function Footer() {
                   alt="Facebook"
                   width={22}
                   height={21}
-                  className="w-6 h-6"
-                />
-              </Link>
-              <Link href="/">
-                <Image
-                  src="/images/instagram.png"
-                  alt="Instagram"
-                  width={22}
-                  height={21}
-                  className="w-6 h-6"
                 />
               </Link>
               <Link href="/">
@@ -225,7 +215,6 @@ function Footer() {
                   alt="Youtube"
                   width={20}
                   height={14}
-                  className="w-6 h-6"
                 />
               </Link>
               <Link href="/">
@@ -234,7 +223,6 @@ function Footer() {
                   alt="Linkedin"
                   width={20}
                   height={21}
-                  className="w-6 h-6"
                 />
               </Link>
               <Link href="/">
@@ -252,7 +240,6 @@ function Footer() {
                   alt="Flickr"
                   width={20}
                   height={11}
-                  className="w-6 h-6"
                 />
               </Link>
               <Link href="/">
@@ -261,7 +248,6 @@ function Footer() {
                   alt="Messenger"
                   width={21}
                   height={21}
-                  className="w-6 h-6"
                 />
               </Link>
             </div>
