@@ -210,15 +210,6 @@ function Footer() {
                 />
               </Link>
               <Link href="/">
-                {" "}
-                <Image
-                  src="/images/instagram.png"
-                  alt="instagram"
-                  width={18}
-                  height={18}
-                />
-              </Link>
-              <Link href="/">
                 <Image
                   src="/images/youtube.png"
                   alt="Youtube"
