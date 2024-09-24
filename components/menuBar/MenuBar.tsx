@@ -2,14 +2,14 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { AlignLeft } from "lucide-react";
+import { AlignLeft, X } from "lucide-react";
 function MenuBar() {
   const [open, setOpen] = useState(false);
 
   return (
     <div>
       <span className="cursor-pointer" onClick={() => setOpen((prev) => !prev)}>
-        <AlignLeft className="w-6 h-6" />
+        {!open ? <AlignLeft className="w-6 h-6" /> : <X className="w-6 h-6" />}
       </span>
       {open && (
         <div className="absolute bg-[#F9F9F9] left-0 top-20 sm:top-16 w-full h-[calc(100vh-80px)] sm:h-[30rem] flex flex-col items-center justify-center gap-4 text-[18px] z-20">
