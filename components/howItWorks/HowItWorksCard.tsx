@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-interface IncubationModelCardProps {
+interface HowItWorksCardProps {
   image: any;
   title: string;
   content: string;
 }
 
-function HowItWorksCard({ image, title, content }: IncubationModelCardProps) {
+function HowItWorksCard({ image, title, content }: HowItWorksCardProps) {
   return (
     <div className="w-full max-w-sm mx-auto text-start">
       <div className="flex flex-col rounded-xl h-full bg-white shadow-sm p-6">
